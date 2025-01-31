@@ -152,9 +152,9 @@ function selectAnswer(e){
 function showScore(){
     resetState();
     if (score < questions.length){
-        questionElement.innerHTML = `Andhuke chaduvkovali, chudu ippudu ${score} out of ${questions.length} vachai neeku, saduvkondra!`
+        questionElement.innerHTML = `Yay, you scored ${score} out of ${questions.length}.`
     }else{
-        questionElement.innerHTML = `Ahaaaa aatagadive ${score} out of ${questions.length} vachaai gaa, PARTY PARTY!!!`
+        questionElement.innerHTML = `Congrats for ${score} out of ${questions.length}, keep it up mate!`
     }
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
